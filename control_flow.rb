@@ -1,5 +1,5 @@
 def admin_login(username, password)
-  if username == "ADMIN" or "admin" && password == "12345"
+  if username == "ADMIN" || username == "admin" && password == "12345"
       return "Access granted"
     else 
       return "Access denied"
@@ -53,7 +53,7 @@ def calculator(operation, num1, num2)
     elsif operation == "/"
       return num1 / num2
     else
-      puts "Invalid Operation!\n"
+      puts "Invalid operation!"
     end
 end
 
